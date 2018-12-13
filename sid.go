@@ -2,7 +2,6 @@ package golang-utils
 
 import (
 	"encoding/binary"
-	"fmt"
 	"strings"
 )
 
