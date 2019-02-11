@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-// StringSID converts bytes Windows SID to string representation
+// StringSID converts Windows SID bytes to string representation
 func StringSID(sid []byte) string {
 	var par = []string{"S"}
 	par = append(par, fmt.Sprintf("%x", uint(sid[0])))
